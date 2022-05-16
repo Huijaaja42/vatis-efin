@@ -1,0 +1,123 @@
+{
+  "Name": "Utti",
+  "Identifier": "EFUT",
+  "Contractions": [
+    {
+      "String": "ARR AND DEP ATIS",
+      "Spoken": "ARRIVAL AND DEPARTURE INFORMATION"
+    },
+    {
+      "String": "ACK INFO",
+      "Spoken": "ADVISE ON INITIAL CONTACT YOU HAVE INFORMATION"
+    },
+    {
+      "String": "EFUT",
+      "Spoken": "THIS IS UTTI"
+    },
+    {
+      "String": "RUNWAY SEVEN",
+      "Spoken": "RUNWAY ZERO SEVEN"
+    },
+    {
+      "String": "PLUS",
+      "Spoken": " "
+    },
+    {
+      "String": "SURFACE WIND",
+      "Spoken": "WIND TOUCHDOWN ZONE,"
+    },
+    {
+      "String": "FLIGHT LEVEL",
+      "Spoken": " "
+    },
+    {
+      "String": "CLOUDS",
+      "Spoken": " "
+    },
+    {
+      "String": "ONE, ZERO KILOMETERS OR MORE",
+      "Spoken": "ONE ZERO KILOMETERS"
+    },
+    {
+      "String": "AUTO",
+      "Spoken": "AUTOMATIC REPORT"
+    },
+    {
+      "String": "VARYING",
+      "Spoken": "VARIABLE"
+    },
+    {
+      "String": "GUST",
+      "Spoken": "MAXIMUM"
+    }
+  ],
+  "AtisFrequency": 36550,
+  "ObservationTime": {
+    "Enabled": false,
+    "Time": 0
+  },
+  "MagneticVariation": {
+    "Enabled": false,
+    "MagneticDegrees": 0
+  },
+  "AtisVoice": {
+    "UseTextToSpeech": true,
+    "Voice": "US Female"
+  },
+  "IDSEndpoint": null,
+  "Presets": [
+    {
+      "Name": "25",
+      "AirportConditions": "ILS",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "EFUT ARR AND DEP ATIS [ATIS_CODE]. AT TIME [TIME] [ARPT_COND] APPROACH EXPECTED. RWY 25 IN USE. [TL]. [NOTAMS] AUTO. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] ACK INFO [ATIS_CODE]"
+    },
+    {
+      "Name": "07",
+      "AirportConditions": "RNP",
+      "Notams": null,
+      "ArbitraryText": null,
+      "Template": "EFUT ARR AND DEP ATIS [ATIS_CODE]. AT TIME [TIME] [ARPT_COND] APPROACH EXPECTED. RWY 07 IN USE. [TL]. [NOTAMS] AUTO. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] ACK INFO [ATIS_CODE]"
+    }
+  ],
+  "AirportConditionDefinitions": [],
+  "NotamDefinitions": [],
+  "TransitionLevels": [
+    {
+      "Low": 1051,
+      "High": 1068,
+      "Altitude": 50
+    },
+    {
+      "Low": 1032,
+      "High": 1050,
+      "Altitude": 55
+    },
+    {
+      "Low": 1014,
+      "High": 1031,
+      "Altitude": 60
+    },
+    {
+      "Low": 996,
+      "High": 1013,
+      "Altitude": 65
+    },
+    {
+      "Low": 978,
+      "High": 995,
+      "Altitude": 70
+    },
+    {
+      "Low": 960,
+      "High": 977,
+      "Altitude": 75
+    },
+    {
+      "Low": 943,
+      "High": 959,
+      "Altitude": 80
+    }
+  ]
+}
